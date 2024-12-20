@@ -162,7 +162,7 @@ section {
     border: 1px solid #E4EAF7;
     padding-left: 44px;
     margin-top: 32px;
-    outline: 0;
+    outline-color: black;
 }
 
 .mt-10 {
@@ -185,6 +185,7 @@ section {
     border-radius: 50px;
     margin-top: 24px;
     color: white;
+    cursor: pointer;
     border: none;
     background: linear-gradient(83.67deg, #2194FF 10.02%, #2563EB 90.05%);
 }
@@ -357,7 +358,7 @@ section {
     }
 }
 
-@media (min-width:992px) {
+@media (min-width:1200px) {
     .email-input {
         max-width: 340px;
     }
@@ -496,8 +497,8 @@ section {
         top: 62%
     }
 
-    .max-width-500 {
-        max-width: 500px;
+    .max-width-590 {
+        max-width: 590px;
     }
 }
 
