@@ -329,6 +329,26 @@ section {
     background-position: center;
 }
 
+.facebook-svg-2 {
+    left: -4%;
+    bottom: -30%;
+}
+
+.linkdin-svg-2 {
+    left: 25%;
+    bottom: -30%;
+}
+
+.instagram-svg-2 {
+    left: 55%;
+    bottom: -30%;
+}
+
+.twitter-svg-2 {
+    left: 85%;
+    bottom: -30%;
+}
+
 @media(max-width:1199.98px) {
     .bg-img::after {
         top: 100%;
@@ -384,12 +404,23 @@ section {
     .bg-img::after {
         top: 65%;
         width: 100%;
-        height: 45%;
+        height: 50%;
     }
 
-    .facebook-svg{
-        position: absolute;
-        top: 101%;
+    .facebook-svg {
+        display: none;
+    }
+
+    .linkdin-svg {
+        display: none;
+    }
+
+    .instagram-svg {
+        display: none;
+    }
+
+    .twitter-svg {
+        display: none;
     }
 
 }
@@ -403,6 +434,22 @@ section {
         top: 50%;
         width: 100%;
         height: 57%;
+    }
+
+    .facebook-svg-2 {
+        display: none;
+    }
+
+    .linkdin-svg-2 {
+        display: none;
+    }
+
+    .instagram-svg-2 {
+        display: none;
+    }
+
+    .twitter-svg-2 {
+        display: none;
     }
 }
 
@@ -448,6 +495,10 @@ section {
     .instagram-svg {
         top: 62%
     }
+
+    .max-width-500 {
+        max-width: 500px;
+    }
 }
 
 @media(min-width: 1200px) {
@@ -459,7 +510,26 @@ section {
 }
 
 @media (max-width:440px) {
-    .group-img-2{
+    .group-img-2 {
         padding-left: 25px;
     }
+}
+
+@media (min-width:440px) {
+    .facebook-svg-2 {
+        left: 17%;
+    }
+
+    .twitter-svg-2 {
+        left: 97%;
+    }
+
+    .instagram-svg-2 {
+        left: 70%
+    }
+
+    .linkdin-svg-2 {
+        left: 44%;
+    }
+
 }
